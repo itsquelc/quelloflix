@@ -1,0 +1,27 @@
+git config --global user.name itsquelc
+git config --global user.email raquelnunescirino@gmail.com
+
+
+Executar, no terminal, 1 por vez, em ordem:
+    dotnet new mvc -o QuelloFlix
+    dotnet new sln --name QuelloFlix
+    dotnet sln add QuelloFlix\QuelloFlix.csproj
+
+
+- Database First / Code First
+- Instalar os pacotes necessários
+
+1º Forma - Acessar o site nuget.org
+    - dotnet add package Microsoft.EntityFrameworkCore --version 8.0.4
+
+2º Forma - Usar a extensão Nuget Gallery
+    - Shift + Ctrl + P
+    - Nuget [Enter]
+    - Pesquisar e instalar os pacotes:
+        - EntityFrameworkCore
+        - EntityFrameworkCore.Design
+        - EntityFrameworkCore.Tools
+        - Pomelo.EntityFrameworkCore.MySql
+
+
+
