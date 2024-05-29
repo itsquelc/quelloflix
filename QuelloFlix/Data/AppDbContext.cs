@@ -31,7 +31,7 @@ namespace QuelloFlix.Data;
         builder.Entity<MovieGenre>()
             .HasOne(mg => mg.Genre)
             .WithMany(g => g.Movies)
-            .HasForeignKey(mg => mg.MovieId);
+            .HasForeignKey(mg => mg.GenreId);
 
         #endregion
     }

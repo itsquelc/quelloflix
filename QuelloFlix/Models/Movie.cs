@@ -13,7 +13,7 @@ namespace QuelloFlix.Models;
         [Display(Name = "Título Original")]
         [Required(ErrorMessage = "Por favor, informe o Título Original")]
         [StringLength(100, ErrorMessage = "O Título Original deve possuir no máximo 100 caracteres")]
-        public string OriginalTittle { get; set; }
+        public string OriginalTitle { get; set; }
         
         [Display(Name = "Título Original")]
         [Required(ErrorMessage = "Por favor, informe o Título Original")]
