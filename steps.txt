@@ -23,5 +23,6 @@ Executar, no terminal, 1 por vez, em ordem:
         - EntityFrameworkCore.Tools
         - Pomelo.EntityFrameworkCore.MySql
 
-
-
+Executar o projeto
+cd quelloFlix
+dotnet watch run
